@@ -1,4 +1,4 @@
-# Name Guesser
+# Name Guesser Module
 
 JSON module to guess a user's name and company from just an email address.
 
