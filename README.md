@@ -1,8 +1,6 @@
 # Name Guesser
 
-JSON API to guess a user's name and company from just an email address.
-
-Inspired by [Genderize.io](http://genderize.io).
+JSON module to guess a user's name and company from just an email address.
 
 Made by the team at **Weld** ([www.weld.io](https://www.weld.io?utm_source=github-name-guesser)), the code-free app and web creation tool:
 
@@ -36,7 +34,10 @@ Made by the team at **Weld** ([www.weld.io](https://www.weld.io?utm_source=githu
 
 Request:
 
-	http://localhost:9006/.json?email=jane.doe@google.com
+	const nameGuess = require("./name-guesser-module/lib/emailtools");       // use the correct relative path to /lib/emailtools.js
+	var resultJSON = nameGuess.processUser({email: "jane.doe@google.com"});
+	console.log("%j", resultJSON);
+	
 
 Response:
 
