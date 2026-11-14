@@ -4,9 +4,7 @@ JSON module to guess a user's name and company from just an email address.
 
 Made by the team at **Weld** ([www.weld.io](https://www.weld.io?utm_source=github-name-guesser)), the code-free app and web creation tool:
 
-[![Weld](https://s3-eu-west-1.amazonaws.com/weld-social-and-blog/gif/weld_explained.gif)](https://www.weld.io?utm_source=github-name-guesser)
-
-Changed to module by me..
+Changed to module by Jason-Yeom
 
 ## Screenshot
 
